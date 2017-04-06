@@ -40,8 +40,6 @@ app.get("/:eingabe*", function(req, res){
         
         db.close();
     })
-    
-
 
 }
 })
@@ -49,8 +47,6 @@ app.get("/:eingabe*", function(req, res){
 app.listen((process.env.PORT||8080|| 5000), function(){
     console.log("roger, we are online...");
 })
-
-
 
 
 function show (data){
